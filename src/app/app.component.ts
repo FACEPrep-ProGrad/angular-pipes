@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-pipes';
+
+  CurrentDate: number;
+number: number = 0;
+name: string = '';
+
+numbers(currency: number): void {
+  this.number = currency;
+  
 }
+pipes(name: string): void {
+  this.name = name;
+}
+
+date(): void {
+  this.CurrentDate = Date.now();
+
+   }
+  }
+  
+  
+

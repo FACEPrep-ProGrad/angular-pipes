@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-pipes"
+    }
+  },
+  "defaultProject": "angular-pipes",
+  "cli": {
+    "analytics": "d67394ff-47eb-43c9-a310-a89aefdb2464"
+  }
 }
